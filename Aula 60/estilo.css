@@ -10,6 +10,8 @@ body {
 	width: 85%;
 	margin: 0 auto;
 	background: #fff;
+	min-width: 720px;
+	max-width: 1280px;
 }
 
 #marca {
@@ -21,17 +23,17 @@ body {
 
 #conteudo {
 	
-	width: 520px;
+	width: 75%;
 	float: right;
 }
 
 #conteudo-principal{
-	width: 320px;
+	width: 64%;
 	float: left;
 }
 
 #conteudo-secundario {
-	width: 180px;
+	width: 36%;
 	float: right;
 	background: #d1d1d1;
 }
@@ -46,7 +48,7 @@ body {
 
 #navegacao {
 	
-	width: 180px;
+	width: 23%;
 	float: 180px;
 	padding-top: 20px;
 	background: #d1d1d1;
