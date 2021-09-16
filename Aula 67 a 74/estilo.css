@@ -90,18 +90,11 @@
     margin: 0 0 20px -750px;
  }
 
- #tres-colunas #primario {
-    width: 270px;
-    float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
- }
-
    #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+    
  }
 
   #duas-colunas #primario {
@@ -117,7 +110,7 @@
     width: 270px;
      float: left;
      margin: 0 0 20px 15px;
-    background: green;
+
  }
 
  /*Caixa*/
@@ -174,9 +167,31 @@
     width: 90px;
     color: #fff;
     background-color: #b10333;
-    border: 2px solid #870520;
+    border: 2px solid #870529;
  }
 
+ /*Formatação imagem*/
+ img.imagem-principal {
+   width: 98%;
+   border: 3px solid #dfdfdf;
+ }
+
+ /* Formatando Cabeçalho */
+ h3 {
+   text-transform: uppercase;
+   display: inline;
+   font-size: 0.8em;
+   padding: 3px;
+ }
+
+ .destaque h3 {
+   background: #b10333;
+   color: #fff;
+ }
+
+  .entrevista h3 {
+   background: #de003e;
+ }
 
  /*rodape  */
  #container-rodape {
